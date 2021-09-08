@@ -1,0 +1,16 @@
+domain: basic
+descriptors:
+  - key: key1
+    rate_limit:
+      unit: second
+      requests_per_unit: 50
+
+  - key: key1_local
+    rate_limit:
+      unit: second
+      requests_per_unit: 50
+
+  - key: one_per_minute
+    rate_limit:
+      unit: minute
+      requests_per_unit: 1
